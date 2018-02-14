@@ -832,7 +832,7 @@ cursor: pointer;
 		margin-top: 20%;
 	}
 	#stat{
-		margin-top:300%;
+		margin-top:290%;
 	}
 	.slider{
 		margin-top: 190%;
@@ -854,9 +854,6 @@ cursor: pointer;
 @media screen and (max-width: 323px){
 	#load-p{
 		margin-left: -12%;
-	}
-	.content2{
-		height:3500px;
 	}
 }
 
