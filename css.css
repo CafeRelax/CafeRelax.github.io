@@ -15,7 +15,6 @@ body,html{
 	margin:0;
 	padding: 0;
 	background: #000;
-	
 }
 .content0{
 	height: 6vh;
@@ -720,7 +719,6 @@ cursor: pointer;
    }
 }
 @media screen and (max-width: 481px){
-
 	.stati{
 		width: 20%;
 		margin-top: 16.5%;
@@ -852,13 +850,11 @@ cursor: pointer;
 	.footer p{
 		margin-left: 18%;
 	}
-
 }
 @media screen and (max-width: 323px){
 	#load-p{
 		margin-left: -12%;
 	}
-
 }
 
 

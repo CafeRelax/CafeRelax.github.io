@@ -19,6 +19,7 @@ html,body{
 .main-menu li{
     display: inline-block;
 	margin-left: 10%;
+	z-index: 100;
 }
 .stati{
 	width: 4.3%;
@@ -27,7 +28,9 @@ html,body{
 	position: absolute;
 	top:2.5%;
 }
-
+.stati li{
+	z-index: 1;
+}
 .st{
 	width: 220%;
 	height: 100%;
@@ -100,9 +103,6 @@ text-decoration:none;
 }
 .front{
 	background: #3d3d3d;
-}
-.others{
-	margin-top:5%;
 }
 #f1_container {
   position: relative;
@@ -182,13 +182,10 @@ text-decoration:none;
       }  
 
       @media screen and (max-width: 481px){
-      	body{
-	
-}
 	.stati{
-		width: 17.5%;
-		height:3.5%;
-		margin-top: 14.3%;
+		width: 15%;
+		height: 6%;
+		margin-top: 14%;
 	}
 	.main-menu{
 		margin-left: -10%;
@@ -207,12 +204,9 @@ text-decoration:none;
 	}
 	@media screen and (max-width: 321px){
 		.stati{
-		width: 21%;
+		width: 39%;
 		height: 3.5%;
 		margin-top: 20%;
-	}
-	.others{
-		margin-left: -5%;
 	}
 	.load-p{
 		margin-left: -4%;
