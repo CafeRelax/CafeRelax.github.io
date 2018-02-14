@@ -8,6 +8,7 @@
    var x=-17;
    var numberslide=0;
    button[0].style.background="#256160";
+   if(document.documentElement.clientWidth>1024){
    time=setInterval(function silk(){
     	if ((numberslide<=2)&&(flag==true)) {
         slides.style.transform="translateX("+x+"%)";
@@ -66,6 +67,6 @@
      	button[2].style.background="#fff";
      	clearInterval(time);
      }
-  
+  }
 
 }());
