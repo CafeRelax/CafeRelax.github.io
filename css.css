@@ -15,6 +15,7 @@ body,html{
 	margin:0;
 	padding: 0;
 	background: #000;
+	overflow:  hidden;
 }
 .content0{
 	height: 6vh;
