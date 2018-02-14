@@ -720,9 +720,7 @@ cursor: pointer;
    }
 }
 @media screen and (max-width: 481px){
-	body{
-	overflow-y: hidden;
-}
+
 	.stati{
 		width: 20%;
 		margin-top: 16.5%;
@@ -854,17 +852,13 @@ cursor: pointer;
 	.footer p{
 		margin-left: 18%;
 	}
-	body{
-	overflow-y: hidden;
-}
+
 }
 @media screen and (max-width: 323px){
 	#load-p{
 		margin-left: -12%;
 	}
-body{
-	overflow-y: hidden;
-}
+
 }
 
 
