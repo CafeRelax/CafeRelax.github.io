@@ -765,7 +765,7 @@ cursor: pointer;
 	 	font-size: 100%;
 	 }
 	 .slider{
-	 	margin-top:200%;	
+	 	margin-top:170%;	
 	 	width: 30%;
      	height: 150%;
         overflow: visible;
@@ -773,6 +773,7 @@ cursor: pointer;
 	 }
 	 #stat{
 	 	margin-top: 150%;
+	 	margin-left: 5%;
 	 }
    .slides{
    	width: 100%;
@@ -803,7 +804,10 @@ cursor: pointer;
 		text-align: center;
 	}
 	#load-p{
-		margin-left: -3%;
+		margin-left: -10%;
+	}
+	#preloader{
+		margin-left: -8%;
 	}
 }
 @media screen and (max-width: 321px){
