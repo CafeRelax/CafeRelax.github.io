@@ -24,7 +24,7 @@
  var    div11create=document.createElement("div");
  var    img1create=document.createElement("img");
  var    pcreate=document.createElement("p");
- 
+ var  j=1;
 
 
   picts[0].onclick=function(){
@@ -45,7 +45,7 @@
    p[13].innerHTML="Your Life";
    ul.removeChild(li1create);
    songs=["five/california dreaming.mp3","five/whatever it takes.mp3","five/bad moon.mp3","five/ghost beach.mp3","five/broken record.mp3","five/nobodys watching.mp3","five/renegade.mp3","five/black cadillac (feat. b-real).mp3","five/pray (put em in the dirt).mp3","five/cashed out.mp3","five/riot.mp3","five/we own the night.mp3","five/bang bang.mp3","five/your life.mp3"]
-  
+  j=1;
   b2.onclick=nextsong;
 
 function nextsong(){
@@ -98,8 +98,8 @@ function presong(){
    p[11].innerHTML="Save Me";
    p[12].innerHTML="Guzzle, Guzzle";
    p[13].innerHTML="I'll Be There";
-   songs=["dod/Usual Suspects.mp3","dod/Day Of The Dead.mp3","dod/How We Roll .mp3","dod/War Child.mp3","dod/Dark Places.mp3","dod/Take Me Home .mp3","dod/Gravity.mp3","dod/Does Everybody In The World Have To Die .mp3","dod/Disease .mp3","dod/Party By Myself .mp3","dod/Live Forever .mp3","dod/Save Me.mp3","dod/Guzzle, Guzzle.mp3","dod/I'll Be There .mp3","dod/Let Go.mp3"]
- 
+   songs=["five/Usual Suspects.mp3","five/Day Of The Dead.mp3","five/How We Roll .mp3","five/War Child.mp3","five/Dark Places.mp3","five/Take Me Home .mp3","five/Gravity.mp3","five/Does Everybody In The World Have To Die .mp3","five/Disease .mp3","five/Party By Myself .mp3","five/Live Forever .mp3","five/Save Me.mp3","five/Guzzle, Guzzle.mp3","five/I'll Be There .mp3","five/Let Go.mp3"]
+ j=2;
   b2.onclick=nextsong;
 
 function nextsong(){
@@ -132,7 +132,11 @@ playto[14].onclick=function(){
 
 function play(){   
       song.src=songs[currentsong];
+      if (j=1) {
       songname.textContent=songs[currentsong].replace("five/","");
+}else{
+  songname.textContent=songs[currentsong].replace("dod/","");
+}
       display.style.visibility="visible";
       display.style.opacity=1;
       song.play(songs[currentsong+1]); 
