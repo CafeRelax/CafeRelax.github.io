@@ -794,6 +794,17 @@ cursor: pointer;
    .footer p{
    	margin-left: 23%;
    }
+   #preloader-text{
+		width: 100%;
+		text-align: center;
+	}
+	#preloader-text2{
+		width: 100%;
+		text-align: center;
+	}
+	#load-p{
+		margin-left: -3%;
+	}
 }
 @media screen and (max-width: 321px){
 	#preloader-text{
