@@ -101,6 +101,9 @@ text-decoration:none;
 .main-menu li:nth-child(3) a{
 	font-size: 130%;
 }
+.others{
+	margin-top: 10%;
+}
 .front{
 	background: #3d3d3d;
 }
