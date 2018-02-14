@@ -777,7 +777,7 @@ cursor: pointer;
 	 }
    .slides{
    	width: 100%;
-   	height: 30%;
+   	height: 35%;
    }
     .slides li{
     display: block;
@@ -838,7 +838,7 @@ cursor: pointer;
 		margin-top: 190%;
 	}
 	.slides{
-		height: 40%;
+		height: 45%;
 	}
 	.content2{
 		height: 2900px;
@@ -849,6 +849,14 @@ cursor: pointer;
 	}
 	.footer p{
 		margin-left: 18%;
+	}
+}
+@media screen and (max-width: 323px){
+	#load-p{
+		margin-left: -12%;
+	}
+	.content2{
+		height:3000px;
 	}
 }
 
