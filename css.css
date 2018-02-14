@@ -797,6 +797,11 @@ cursor: pointer;
    	margin-left: 23%;
    }
 }
+@media screen and (max-width: 321px){
+	.stati{
+		width: 7%;
+	}
+}
 
 
 
