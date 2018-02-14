@@ -478,7 +478,325 @@ cursor: pointer;
 	color: white;
 }
 
+@media screen and (max-width: 1923px){
 
+    .stati{
+    	width: 3.5%;
+    	height: 2.2%;
+    	margin-top: -0.1%;
+    }
+.content1 p{
+    font-size: 170%;
+}
+#go{
+    margin-left: 73%;
+	font-size: 180%;
+	margin-top: 5%;
+}
+.aforizm{
+	width: 70%;
+	margin-left: 15%;
+}
+.content2{
+	height:900px; 
+}
+.slider{
+	margin-top: 15%;
+	width: 48%;
+	margin-left: 26%;
+}
+#stat{
+	margin-left: -60%;
+	margin-top: 0%;
+}
+.buttons{
+	width: 15%;
+	height: 4%;
+}
+.footer p{
+	margin-left: 5%;
+}
+
+
+
+}
+@media screen and (max-width: 1600px) and (max-height: 1200px){
+   .stati{
+   	width: 4.5%;
+   	height: 2%;
+   	margin-top: -0.4%;
+   	margin-left: -0.1%;
+   }
+   .st:nth-child(1) a{
+   	padding-right:24%; 
+   }
+    .content1 img{
+    	width: 60%;
+    }
+    .content1{
+    	height: 800px;
+    }
+    #go{
+    	margin-left: 110%;
+    }
+   
+    .aforizm{
+    	margin-top: -10%;
+    	width: 80%;
+    	margin-left: 10%;
+
+    }
+    .content2{
+    	height: 900px;
+    }
+    #stat{
+    	margin-top: -10%;
+    }
+    #go{
+    	left: -35%;
+    	position: absolute;
+    	margin-top: -1%;
+    }
+    .slider{
+    	margin-top: 30%;
+    	width: 58%;
+    	margin-left: 22%;
+    	height: 50%;
+    }
+    .buttons{
+    	margin-top: -14%;
+    	width: 15%; 
+    	height: 3%;
+    }
+    .footer p{
+    	margin-left: 6%;
+    }
+}
+@media screen and (max-width: 1600px) and (max-height: 900px){
+      .stati{
+      	margin-top: 0%;
+      	height: 2.5%;
+      }
+      .st{
+      	height: 120%;
+	}
+	#stat{
+		margin-top: -5%;
+	}
+	.slider{
+		margin-top: 24%;
+	}
+}
+	@media screen and (max-width: 1600px) and (max-height: 768px){
+
+        .stati{
+        	height: 4%;
+        }
+        #stat{
+        	margin-top: -2%;
+        }
+        .slider{
+        	margin-top: 20%;
+        }
+        .button{
+        	width: 5%;
+        }
+        .footer p{
+        	margin-left: 7%;
+        }
+	}
+
+@media screen and (max-width: 1367px){
+	.stati{
+		width:5.15%;
+		height: 3%;
+		margin-top: 0.4%;
+	}
+	.content1{
+		height: 550px;
+	}
+	.content1 p{
+    	margin-top: 1%;
+    	font-size: 130%;
+	}
+	.aforizm{
+		margin-top: 0%;
+	}
+	
+	#stat{
+		margin-top: 1%;
+	}
+	.slider{
+		margin-top: 21%;
+		width: 65%;
+		margin-left: 17.5%;
+	}
+	.footer p{
+		margin-left: 7%;
+	}
+ }
+ @media screen and (max-width: 1024px) and (max-height: 768px){
+  
+      .stati{
+      	width: 6.8%;
+      }  
+      .content1{
+      	height: 1000px;
+      }
+      .main-menu{
+      	margin-left: 0%;
+      }
+      .content1 img{
+      	width: 100%;
+      }
+      .contentp:nth-child(2){
+      	font-size: 200%;
+      }
+      .contentp:nth-child(n+3){
+      	text-align: left;
+      }
+     .contentp:nth-child(3){  	
+      	margin-left: 10%;
+      	margin-top: -3%;
+      }
+      .contentp:nth-child(4){  	
+      	margin-left: 25%;
+      	margin-top: -2%;
+      }
+      .contentp:nth-child(5){  	
+      	margin-left: 40%;
+      	margin-top: -2%;
+      }
+      .contentp:nth-child(6){  	
+      	margin-left: 50%;
+      	margin-top: -2%;
+      }
+      #go{
+      	font-size: 140%;
+      }
+      .aforizm{
+      	margin-top: -8%;
+      	width: 95%;
+      	margin-left: 2.5%;
+      }
+      .aforizm:before{
+      	margin-top: 13%;
+      }
+      .content2{
+      	height:  1500px;
+      }
+      .sec2{
+         overflow: hidden;
+      }
+   .buttons{
+   	display: none;
+   }
+   .slider{
+   	width: 80%;
+   	height: 150%;
+   	overflow: visible;
+   	margin-top: 90%;
+   	
+   }
+    #stat{
+    	margin-top: 3%;
+    }
+   .slides{
+   	width: 100%;
+   	height: 30%;
+   }
+    .slides li{
+    display: block;
+   	width: 38%;
+   	
+   }
+   .slide:nth-child(odd){
+   	margin-left: -1.5%;
+   }
+   .slide p{
+   	margin-left:0%;
+   	width: 90%;
+   }
+   .footer p{
+   	margin-left: 10%;
+   }
+}
+@media screen and (max-width: 481px){
+	.stati{
+		width: 20%;
+		margin-top: 16.5%;
+	}
+	 .st{
+	 	margin-left: 0%;
+	 }
+	 .main-menu li{
+	 	display: block;
+	 	margin-left: 0%;
+	 }
+	 .main-menu{
+	 	width: 100%;
+	 	height: 100px;
+
+	 }
+	 .content1{
+	 	margin-top: 100px;
+	 	width: 100%;
+	 }
+	 .content1 img{
+	 	width: 100%;
+	 }
+	 .contentp:nth-child(2){
+	 	margin-left: -39%;
+	 }
+	 .contentp:nth-child(n+3){
+	 	margin-left: 20%;
+	 }
+	 #go{
+	 	margin-left: 80%;
+	 }
+	 .aforizm{
+	 	display: none;
+	 }
+	 .content1{
+	 	height: 670px;
+	 }
+	 .content2{
+	 	height: 2650px;
+	 }
+	 .content2-p{
+	 	font-size: 100%;
+	 }
+	 .slider{
+	 	margin-top:200%;	
+	 	width: 30%;
+     	height: 150%;
+        overflow: visible;
+        margin-left: 0%;
+	 }
+	 #stat{
+	 	margin-top: 150%;
+	 }
+   .slides{
+   	width: 100%;
+   	height: 30%;
+   }
+    .slides li{
+    display: block;
+   	width: 100%;
+   	
+   }
+   .slide p{
+   	margin-left:0%;
+   	width: 250%;
+   }
+   .footer img{
+   	width: 80px;
+   	height: 80px;
+   }
+   .footer p{
+   	margin-left: 23%;
+   }
+}
 
 
 
