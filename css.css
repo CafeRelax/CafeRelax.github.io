@@ -722,6 +722,7 @@ cursor: pointer;
 	.stati{
 		width: 20%;
 		margin-top: 16.5%;
+		display: none;
 	}
 	 .st{
 	 	margin-left: 0%;
