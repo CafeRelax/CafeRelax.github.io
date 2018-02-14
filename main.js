@@ -1,5 +1,5 @@
 
-  (function(){
+(function(){
    var slides=document.getElementsByClassName("slides")[0];
    var  button=document.getElementsByClassName("button");
    var flag=true;
@@ -8,8 +8,9 @@
    var x=-17;
    var numberslide=0;
    button[0].style.background="#256160";
-   if(document.documentElement.clientWidth>1024){
-   time=setInterval(function silk(){
+
+if(document.documentElement.clientWidth>1024){
+    time=setInterval(function silk(){
     	if ((numberslide<=2)&&(flag==true)) {
         slides.style.transform="translateX("+x+"%)";
         button[numberslide+1].style.background="#256160";
@@ -67,6 +68,8 @@
      	button[2].style.background="#fff";
      	clearInterval(time);
      }
-  }
+ }
+  
 
 }());
+
