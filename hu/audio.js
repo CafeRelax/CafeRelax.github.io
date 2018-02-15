@@ -1,5 +1,5 @@
 
- var songs=["five/california dreaming.mp3","five/whatever it takes.mp3","five/bad moon.mp3","five/ghost beach.mp3","five/broken record.mp3","five/nobodys watching.mp3","five/renegade.mp3","five/black cadillac (feat. b-real).mp3","five/pray (put em in the dirt).mp3","five/cashed out.mp3","five/riot.mp3","five/we own the night.mp3","five/bang bang.mp3","five/your life.mp3"];
+ var songs=["Five/california dreaming.mp3","Five/whatever it takes.mp3","Five/bad moon.mp3","five/ghost beach.mp3","five/broken record.mp3","five/nobodys watching.mp3","five/renegade.mp3","five/black cadillac (feat. b-real).mp3","five/pray (put em in the dirt).mp3","five/cashed out.mp3","five/riot.mp3","five/we own the night.mp3","five/bang bang.mp3","five/your life.mp3"];
  var songname=document.getElementsByClassName("songname")[0];
  var song= new Audio();
  var playto=document.getElementsByClassName("playto");
