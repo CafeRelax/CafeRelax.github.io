@@ -397,3 +397,24 @@ cursor: pointer;
 	color: white;
 	font-size: 90%;
 }
+@media screen and (max-width: 1923px) and (max-height: 1083px){
+  .album{
+  	margin-top: 20%;
+  }
+  .playto{
+  	width: 2.2%;
+  }
+  .footer p{
+  	margin-left: 5%;
+  }
+}
+@media screen and (max-width: 1367px){
+ 
+    .playto{
+    	width: 3%;
+    }
+ 
+    .footer p{
+    	margin-left: 8%;
+    }
+}
