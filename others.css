@@ -173,9 +173,9 @@ text-decoration:none;
 
 
 
-        @media screen and (max-width: 1367px){
+      @media screen and (max-width: 1367px){
 	.stati{
-		width:5.3%;
+		width:6%;
 		height: 3%;
 		margin-top: 0.4%;
 	}
