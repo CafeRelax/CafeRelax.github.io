@@ -286,8 +286,7 @@ cursor: pointer;
  	margin-left: 1.8%;
  	display: inline-block;
  	background: #fff;
- 	border: 1px solid white;
- }
+ 	 }
  .albums li:nth-child(1){
  	margin-left: -1.9%;
  }
@@ -329,7 +328,7 @@ cursor: pointer;
  	height: 900px;
  	margin-left: 5%;
  	margin-top: 3%;
- 	border: 1px solid white;
+ 	
  }
  .allmusic{
  	width: 100%;
@@ -375,3 +374,25 @@ cursor: pointer;
  .allmusic p{
  	margin-left: 1%;
  }
+.footer{
+	width: 100%;
+	height: 20vh;
+	background:#000;
+	border-top: 3px solid #256160;
+}
+.footer p {
+	color: white;
+	font-size: 110%;
+	margin-left: 7%;
+	color: RoyalBlue;
+
+}
+.footer img{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+#I{
+	color: white;
+	font-size: 90%;
+}

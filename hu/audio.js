@@ -210,7 +210,7 @@ function nextsong(){
   	if(flag==true){
       down.style.transform="translateY(100%)";
       downorup.style.transform="rotate(270deg)";
-      downorup.style.top="-65%";
+      downorup.style.top="-85%";
       flag=false;
  }else{
       down.style.transform="translateY(0%)";
