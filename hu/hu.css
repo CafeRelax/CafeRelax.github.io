@@ -122,7 +122,8 @@ text-decoration:none;
      background: url(../img/fon.jpg);
      transition: all 1s;
       bottom: 0;
-      
+      opacity: 0;
+      visibility: hidden;
      border-top: 1px solid #256160;
 }
 

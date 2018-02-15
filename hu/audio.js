@@ -1,5 +1,5 @@
 
- var songs=["Five/california dreaming.mp3","Five/whatever it takes.mp3","Five/bad moon.mp3","five/ghost beach.mp3","five/broken record.mp3","five/nobodys watching.mp3","five/renegade.mp3","five/black cadillac (feat. b-real).mp3","five/pray (put em in the dirt).mp3","five/cashed out.mp3","five/riot.mp3","five/we own the night.mp3","five/bang bang.mp3","five/your life.mp3"];
+ var songs=["Five/california dreaming.mp3","Five/whatever it takes.mp3","Five/bad moon.mp3","Five/ghost beach.mp3","Five/broken record.mp3","Five/nobodys watching.mp3","Five/renegade.mp3","Five/black cadillac (feat. b-real).mp3","Five/pray (put em in the dirt).mp3","Five/cashed out.mp3","Five/riot.mp3","Five/we own the night.mp3","Five/bang bang.mp3","Five/your life.mp3"];
  var songname=document.getElementsByClassName("songname")[0];
  var song= new Audio();
  var playto=document.getElementsByClassName("playto");
@@ -44,7 +44,7 @@
    p[12].innerHTML="Bang Bang";
    p[13].innerHTML="Your Life";
    ul.removeChild(li1create);
-   songs=["five/california dreaming.mp3","five/whatever it takes.mp3","five/bad moon.mp3","five/ghost beach.mp3","five/broken record.mp3","five/nobodys watching.mp3","five/renegade.mp3","five/black cadillac (feat. b-real).mp3","five/pray (put em in the dirt).mp3","five/cashed out.mp3","five/riot.mp3","five/we own the night.mp3","five/bang bang.mp3","five/your life.mp3"]
+   songs=["Five/california dreaming.mp3","Five/whatever it takes.mp3","Five/bad moon.mp3","Five/ghost beach.mp3","Five/broken record.mp3","Five/nobodys watching.mp3","Five/renegade.mp3","Five/black cadillac (feat. b-real).mp3","Five/pray (put em in the dirt).mp3","Five/cashed out.mp3","Five/riot.mp3","Five/we own the night.mp3","Five/bang bang.mp3","Five/your life.mp3"]
   j=1;
   b2.onclick=nextsong;
 
@@ -98,7 +98,7 @@ function presong(){
    p[11].innerHTML="Save Me";
    p[12].innerHTML="Guzzle, Guzzle";
    p[13].innerHTML="I'll Be There";
-   songs=["five/Usual Suspects.mp3","five/Day Of The Dead.mp3","five/How We Roll .mp3","five/War Child.mp3","five/Dark Places.mp3","five/Take Me Home .mp3","five/Gravity.mp3","five/Does Everybody In The World Have To Die .mp3","five/Disease .mp3","five/Party By Myself .mp3","five/Live Forever .mp3","five/Save Me.mp3","five/Guzzle, Guzzle.mp3","five/I'll Be There .mp3","five/Let Go.mp3"]
+   songs=["Five/Usual Suspects.mp3","Five/Day Of The Dead.mp3","Five/How We Roll .mp3","Five/War Child.mp3","Five/Dark Places.mp3","Five/Take Me Home .mp3","Five/Gravity.mp3","Five/Does Everybody In The World Have To Die .mp3","Five/Disease .mp3","Five/Party By Myself .mp3","Five/Live Forever .mp3","Five/Save Me.mp3","Five/Guzzle, Guzzle.mp3","Five/I'll Be There .mp3","Five/Let Go.mp3"]
  j=2;
   b2.onclick=nextsong;
 
@@ -132,11 +132,7 @@ playto[14].onclick=function(){
 
 function play(){   
       song.src=songs[currentsong];
-      if (j=1) {
-      songname.textContent=songs[currentsong].replace("five/","");
-}else{
-  songname.textContent=songs[currentsong].replace("dod/","");
-}
+      songname.textContent=songs[currentsong].replace("Five/","");
       display.style.visibility="visible";
       display.style.opacity=1;
       song.play(songs[currentsong+1]); 
