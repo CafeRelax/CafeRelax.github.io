@@ -69,7 +69,7 @@ function presong(){
   }
  picts[1].onclick=function(){
   
-  var   content=document.createTextNode("Let Go");
+  var   content=document.createTextNode(" Let Go ");
         ul.appendChild(li1create); 
     
     li1create.appendChild(div1create);
