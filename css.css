@@ -483,6 +483,14 @@ text-align:center;
 		border: none;
 	}
  }
+ @media screen and (max-width: 1367px)  and (max-height: 901px){
+ 	.stati{
+ 		height: 3%;
+ 	}
+ 	.footer p{
+ 		margin-left: 8%;
+ 	}
+ }
   
  @media screen and (max-width: 1024px) {
 
