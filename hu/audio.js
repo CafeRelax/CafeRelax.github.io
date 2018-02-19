@@ -69,7 +69,7 @@ function presong(){
   }
  picts[1].onclick=function(){
   
-  var   content=document.createTextNode(" Let Go ");
+  var   content=document.createTextNode(" Let Go");
         ul.appendChild(li1create); 
     
     li1create.appendChild(div1create);
@@ -134,7 +134,7 @@ function play(){
       song.src=songs[currentsong];
       songname.textContent=songs[currentsong].replace("Five/","");
       display.style.visibility="visible";
-      display.style.opacity=1;
+      display.style.opacity=0.8;
       song.play(songs[currentsong+1]); 
       song.addEventListener('ended',nextsong);          
   }

@@ -1,0 +1,102 @@
+body,html{
+	height: 100%;
+	width: 100%;
+	margin:0;
+	padding: 0;
+	background: #000;
+	
+}
+.content0{
+	height: 20vh;
+	width: 100%;
+	background:#000;
+	border-bottom: 5px solid white;
+}
+.main-menu{
+	font-family: 'Amatic SC', cursive;
+	list-style: none; 
+	font-size: 115%;
+	margin-left: 4%;
+	margin-top: 2%;
+}
+.main-menu li{
+    display: inline-block;
+	margin-left: 10%;
+}
+
+.main-menu li:nth-child(3):hover .st:nth-child(1){
+   transform: translateY(110%);
+}
+.main-menu li:nth-child(3):hover .st:nth-child(2){
+   transform: translateY(100%);
+}
+.main-menu li:nth-child(3):hover .st:nth-child(3){
+   transform: translateY(100%);
+}
+.main-menu li:nth-child(3):hover .st:nth-child(4){
+   transform: translateY(100%);
+}
+.main-menu li:nth-child(3):hover .st{
+   opacity: 1;
+}
+.main-menu li:nth-child(n+4):hover {
+	border: 0.5px solid #B96215;
+	
+}
+.main-menu li:nth-child(1):hover {
+	border: 0.5px solid #B96215;
+	
+}
+
+.main-menu li:nth-child(2):hover {
+	border: 0.5px solid #B96215;
+	
+}
+.main-menu a{
+color: white;
+text-decoration:none;
+}
+
+.main-menu li:nth-child(3) a{
+	font-size: 25px;
+}
+
+#bigkrug{
+	position: absolute;
+	right: 0;
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	background: #0000CD;
+	top:7%;
+	border: 5px solid white;
+	overflow: hidden;
+}
+#bigkrug:before{
+	content: "";
+	background:#000;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: absolute;
+	right: 102%;
+	transition: 0.7s;
+}
+#bigkrug:hover::before {
+	right: 0;
+}
+#content1{
+	width: 100%;
+	height: 100vh;
+	background:#3d3d3d;
+}
+.chill{
+	width: 100%;
+	height: 20%;
+	background: #000; 
+}
+.chill p{
+	color: white;
+	font-family: 'Comic Sans MS';
+	font-size: 115%;
+}

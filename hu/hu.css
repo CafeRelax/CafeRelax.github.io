@@ -397,27 +397,103 @@ cursor: pointer;
 	color: white;
 	font-size: 90%;
 }
-@media screen and (min-width: 1919px) and (min-height: 1079px){
-  .album{
-  	margin-top: 20%;
-  }
-  .playto{
-  	width: 2.2%;
-  }
-  .footer p{
-  	margin-left: 5%;
-  }
-}
-@media screen and (max-width: 1367px){
- 
+@media screen and (max-width: 481px){
+	#preloader{margin-left: -2%;
+	}
+	#preloader-text2{
+		text-align: center;
+	}
+	#load-p{
+		margin-left: -4%;
+		margin-top: 0;
+	}
+	.content0{
+		height: 28vh;
+	}
+	.main-menu li{
+		display: block;
+		margin-left: -17%;
+	}
+    #big img{
+    	width: 100%;
+    }
+    #big p{
+      text-align: center;
+    }
+    .album{
+    	height: 200vh;
+    }
+    .albums li{
+    	display: block;
+    	height: 30vh;
+    	width: 80%;
+    	margin-left: -3%;
+    	margin-top: 10vh;
+    }
     .playto{
-    	width: 3%;
+    	width: 10%;
     }
- 
     .footer p{
-    	margin-left: 8%;
+    	margin-left: 30%;
+    }
+    .timeline{
+    	display: none;
     }
 }
-@media screen and (max-width: 1601px) and (max-height: 901px){
-	.main-menu{margin-left: -4.5%;}
+@media screen and (max-width: 320px) {
+	.playto{
+    	width: 13%;
+    }
+    #preloader{margin-left: -5%;
+	}
+	#preloader-text2{
+		text-align: center;
+	}
+	#load-p{
+		margin-left: -8%;
+		margin-top: -4%;
+	}
+	
+}
+@media screen and (max-width: 768px){
+	.main-menu li{
+		margin-left: 5%;
+	}
+	.albums li{
+		width: 17%;
+        height: 6vh;
+	}
+    .playto{
+    	width: 5%;
+    }
+    .footer p{
+    	margin-left: 13%;
+    }
+
+}
+@media screen and (max-width: 1024px){
+	.albums li{
+		height: 15vh;
+	}
+	.playto{
+		width: 4%;
+	}
+	.footer p{
+		margin-left: 10%;
+	}
+}
+@media screen and (width: 1920px){
+	#big{
+		width: 90%;
+		height: 50%;
+	}
+	.albums li{
+		width: 15%;
+	}
+	.album{
+		margin-top:5%;
+	}
+	.playto{
+		width: 2.5%;
+	}
 }
