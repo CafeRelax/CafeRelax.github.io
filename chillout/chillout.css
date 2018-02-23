@@ -7,7 +7,7 @@ body,html{
 	
 }
 .content0{
-	height: 20vh;
+	height: 17vh;
 	width: 100%;
 	background:#000;
 	border-bottom: 5px solid white;
@@ -68,9 +68,10 @@ text-decoration:none;
 	width: 250px;
 	height: 250px;
 	background: #0000CD;
-	top:7%;
+	top:4%;
 	border: 5px solid white;
 	overflow: hidden;
+	transition:1s;
 }
 #bigkrug:before{
 	content: "";
@@ -88,15 +89,251 @@ text-decoration:none;
 #content1{
 	width: 100%;
 	height: 100vh;
-	background:#3d3d3d;
+	background:#000;
 }
 .chill{
-	width: 100%;
-	height: 20%;
+	width: 92%;
+	height: 13.5%;
 	background: #000; 
+	border-bottom: 5px solid white;
 }
 .chill p{
 	color: white;
 	font-family: 'Comic Sans MS';
 	font-size: 115%;
+}
+
+.music{
+ 	width: 70%;
+ 	height: 900px;
+ 	margin-left: 5%;
+ 	margin-top: 3%;
+ 	
+ }
+ .allmusic{
+ 	width: 100%;
+ 	height: 100%;
+ }
+ .musicname{
+ 	width: 98%;
+ 	height: 40px;
+ 	list-style: upper-roman;
+ 	margin-left: -3%;
+ 	margin-top: 1%;
+ 	border-left: 5px solid white;
+ 	color: white;
+ 	cursor: pointer;
+ }
+ .musicname:hover{
+ 	border: 2px solid #256160;
+ }
+ .playto{
+ 	width:3%;
+ 	height: 80%;
+ 	border-radius: 50%;
+ 	border: 1px solid white;
+ 	margin-left: 0.3%;
+ 	margin-top: 0.3%;
+ }
+ .playto img{
+ 	margin-left: 17%;
+ 	margin-top:10%;
+ 
+ }
+ .musicname p{
+ 	color: white;
+ 	display: inline-block;
+ }
+ .allmusic{
+ 	width: 100%;
+ 	height: 100%;
+ }
+ .playto{
+ 	display: inline-block;
+ }
+ .allmusic p{
+ 	margin-left: 1%;
+ }
+
+
+
+
+
+
+
+
+@keyframes button{
+	0%{}
+	10%{margin-top: 2%;}
+	15%{margin-top: 3%;}
+	20%{margin-top: 4%;}
+	30%{
+        margin-top:5%;}
+	70%{
+		margin-top:1%;
+	}
+	80%{margin-top: 0%;}
+	90%{margin-top:-2%;}
+	95%{margin-top: -1.5%;}
+	100%{
+		margin-top:-1%;}
+}
+
+
+
+
+
+
+.player{
+	 width: 100%;
+	 height: 10vh;
+	 background: #fff;
+	 position: fixed;
+     z-index: 100;
+     background: url(../img/fon.jpg);
+     transition: all 1s;
+      bottom: 0;
+      opacity: 0;
+      visibility: hidden;
+     border-top: 1px solid #256160;
+}
+
+  
+ .next{
+ 	margin: 1%;
+  width: 3.5%;
+  height: 40%;
+  background: #3d3d3d;
+  left: 9.5%;
+  position: absolute;
+  background: url(../img/strelka-left.png) no-repeat;
+  cursor: pointer;
+  margin-top: 2%;
+   }
+ .pre{
+  width: 3.5%;
+  height: 40%;
+  background: #3d3d3d;
+  left: 2%;
+  position: absolute;
+  background: url(../img/strelka-left.png) no-repeat;
+  transform: rotate(180deg);
+  margin-top: 2%;
+cursor: pointer;
+ }
+ .stoporplay{
+ background: url(../img/pause.png);
+  width: 5%;
+  height: 60%;
+  background: #000;
+  cursor: pointer;
+  border-radius: 50%;
+  left: 6.5%;
+  position: absolute;
+  margin-top: 1.5%;
+ }
+ .stoporplay:before{
+ 	
+ 	width: 8%;
+ 	height: 60%;
+ 	background: #fff;
+ 	position: absolute;
+ 	top:20%;
+ 	left: 35%;
+ }
+ .stoporplay:after{
+ 	width: 8%;
+ 	height: 60%;
+ 	background: #fff;
+ 	position: absolute;
+ 	top:20%;
+ 	left: 55%;
+ }
+
+ 
+ .timeline{
+ 	width: 60%;
+ 	height: 5%;
+ 	background: #256160;
+ 	border-radius: 6%;
+    display: flex;
+    position: relative;
+    left: 18%;
+    top:40%;
+    cursor: pointer;
+    margin-top: 1%;
+ }
+ .timekrug{
+ 	border-radius: 50%;
+ 	width: 2%;
+ 	height: 500%;
+ 	background: #B96215;
+ 	left: -1%;
+ 	top:-200%;
+ 	position: absolute;
+ 	cursor: pointer;
+
+ }
+ .time{
+ 	width: 12%;
+ 	height: 20%;
+ 	position: absolute;
+ 	left: 20%;
+ 	top:50%;
+ 	color: #B96215;
+ 	font-size: 130%;
+ 	margin-top: -1%;
+ }
+ .songname{
+ 	width: 50%;
+ 	height: 20%;
+ 	color: white;
+ 	font-size: 130%;
+ 	left: 30%;
+ 	position: absolute;
+ 	margin-top: 0.5%;
+ }
+.downorup{
+	width: 5%;
+	height: 50%;
+	position: absolute;
+	top:-5%;
+	left: 45%;
+	transform: rotate(90deg);
+	transition: 1s;
+}
+.downorup img{
+    height: 60%;
+}
+.downorup:hover img{
+	transform: scale(1.3);
+}
+.minus,.plus{
+	width: 2%;
+	height: 22%;
+	background: #fff;
+	position: absolute;
+	font-size: 150%;
+}
+.minus{
+	left:80%;
+	top:50%;
+}
+.minus p{
+	margin-top: -60%;
+}
+.plus{
+	left:83%;
+	top:50%;
+}
+.plus p{
+	margin-top: -65%;
+}
+.procent{
+  width: 3%;
+  height: 22%;
+  left: 86%;
+  top:48%;
+  position: absolute;
+  background: #fff;
 }
