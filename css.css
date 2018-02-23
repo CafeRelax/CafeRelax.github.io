@@ -817,64 +817,47 @@ text-align:center;
 	}
 }
 
-/*.contentp:nth-child(3){
-    	margin-left: 8%;
-    	margin-top: -2%;
+@media screen and (max-width: 1080px) and (max-height: 1024px){
+	.main-menu{
+		margin-left: 0%;
+	}
+
+	.stati{
+		height: 2.5%;
+		margin-top: -0.5%;
+	}
+	#load-p{
+        margin-top: 2%;
+	}
+	.st a{
+		padding: 5%;
+		
+	}
+	.aforizm{
+		margin-top: -18%;
+	}
+	.aforizm:before{
+		margin-top: 15%;
+	}
+	.content2{
+		height: 93vh;
+	}
+	#stat{
+		margin-top: 0%;
+	}
+    .slider{
+    	margin-top: 40%;
+    	width: 90%;
+    	margin-left: 5%;
     }
-    .contentp:nth-child(4){
-    	margin-left: 20%;
-    	margin-top: -2%;
+    .buttons{
+    	margin-top:-15%;
     }
-    .contentp:nth-child(5){
-    	margin-left: 30%;
-    	margin-top: -2%;
+    .button{
+    	width: 9%;
     }
-    .contentp:nth-child(6){
-    	margin-left: 69%;
-    	margin-top: -2%;
-    }*/
-
-
-
-
-
-
-
-
-/*.audio-all{
-  list-style: none;
-  width: 90%;
-  height: 90vh;
-  color: white;
-  margin-left: 4%;
-  position: absolute;
+    .footer p{
+    	margin-left: 10%;
+    }
 }
-.audio1{
-	float: left;	
-	margin:0.2%;
-	position: relative;
-}
-.audio-all>.audio1:nth-child(1){
-	width: 15%;
-	height: 80%;
-	background: orange;
-
-}
-.audio-all>.audio1:nth-child(2){
-	width: 53%;
-	height: 25%;
-	background: green;
-}
-.audio-all>.audio1:nth-child(3){
-	width: 30%;
-	height: 60%;
-	background: green;
-}
-.audio-all>.audio1:nth-child(4){
-	width: 10%;
-	height: 30%;
-	background: green;
-	top:-35%;
-
-}*/
 

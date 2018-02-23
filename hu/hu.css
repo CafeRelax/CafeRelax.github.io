@@ -500,3 +500,29 @@ cursor: pointer;
 		width: 2.5%;
 	}
 }
+@media screen and (max-width: 1080px) and (max-height: 1024px){
+	#load-p{
+        margin-top: 2%;
+	}
+	.album{
+		height: 13vh;
+	}
+	#text{
+		margin-top: -1%;
+	}
+	.allmusic{
+		margin-top: 15%;
+	}
+	.music{
+		height: 75vh;
+	}
+	.playto{
+		width: 4%;
+	}
+    .footer{
+    	height: 15vh;
+    }
+    .footer p{
+    	margin-left: 9%;
+    }
+}
