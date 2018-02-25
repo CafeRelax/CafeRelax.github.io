@@ -1,5 +1,5 @@
 
-function(){
+(function(){
    var slides=document.getElementsByClassName("slides")[0];
    var  button=document.getElementsByClassName("button");
    var flag=true;
@@ -72,5 +72,5 @@ if(document.documentElement.clientWidth>1024){
  }
   
 
-}();
+}());
 
