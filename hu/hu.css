@@ -396,13 +396,28 @@ cursor: pointer;
 	color: white;
 	font-size: 90%;
 }
+@media screen and (max-width: 1024px){
+	.albums li{
+		height: 15vh;
+	}
+	.playto{
+		width: 4%;
+	}
+	.footer p{
+		margin-left: 10%;
+	}
+}
 @media screen and (max-width: 1080px) and (max-height: 1024px){
 	#load-p{
         margin-top: 2%;
 	}
 	.album{
-		height: 13vh;
+		height: 10vh;
 	}
+	.albums li{
+		height: 12vh;
+	}
+	
 	#text{
 		margin-top: -1%;
 	}
@@ -440,17 +455,7 @@ cursor: pointer;
     }
 
 }
-@media screen and (max-width: 1024px){
-	.albums li{
-		height: 15vh;
-	}
-	.playto{
-		width: 4%;
-	}
-	.footer p{
-		margin-left: 10%;
-	}
-}
+
 @media screen and (width: 1920px){
 	#big{
 		width: 90%;

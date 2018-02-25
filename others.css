@@ -193,7 +193,9 @@ text-decoration:none;
 	}
 }
 	@media screen and (max-width: 1080px) and (max-height: 1024px){
-    
+     .main-menu{
+     	margin-left: 0%;
+     }
      .stati{
      	width: 6.2%;
      	height: 2.7%;
