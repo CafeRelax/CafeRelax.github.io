@@ -385,8 +385,7 @@ cursor: pointer;
 	color: white;
 	font-size: 110%;
 	margin-left: 7%;
-	color: RoyalBlue;
-
+	color:royalblue;
 }
 .footer img{
 	width: 100px;
@@ -398,7 +397,8 @@ cursor: pointer;
 	font-size: 90%;
 }
 @media screen and (max-width: 481px){
-	#preloader{margin-left: -2%;
+	#preloader{
+		margin-left: -2%;
 	}
 	#preloader-text2{
 		text-align: center;
@@ -410,9 +410,12 @@ cursor: pointer;
 	.content0{
 		height: 28vh;
 	}
+	.main-munu{
+		margin-left: -30%;
+	}
 	.main-menu li{
 		display: block;
-		margin-left: -17%;
+		margin-left: -30%;
 	}
     #big img{
     	width: 100%;
