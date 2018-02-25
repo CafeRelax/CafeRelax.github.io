@@ -135,7 +135,7 @@ function play(){
       songname.textContent=songs[currentsong].replace("Five/","");
       display.style.visibility="visible";
       display.style.opacity=0.8;
-      song.play(songs[currentsong+1]); 
+      song.play(songs[currentsong]); 
       song.addEventListener('ended',nextsong);          
   }
 
