@@ -212,9 +212,7 @@ text-decoration:none;
 
       @media screen and (max-width: 481px){
 	.stati{
-		width: 17.5%;
-		height:3.5%;
-		margin-top: 14.3%;
+		display: none;
 	}
 	.main-menu{
 		margin-left: -10%;
@@ -226,17 +224,20 @@ text-decoration:none;
 	}
 	.others{
 		margin-top: 40%;
-		margin-left: 15%;
+		
 	}
+#f1_container{
+	float: none;
+	width: 80%;
+}
 	#f1_container{
 		margin-top: 6%;
 	}
+
 }
 	@media screen and (max-width: 321px){
 		.stati{
-		width: 21%;
-		height: 3.5%;
-		margin-top: 20%;
+		display: none;
 	}
 	.others{
 		margin-left: -5%;
