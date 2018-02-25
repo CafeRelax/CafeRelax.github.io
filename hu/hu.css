@@ -512,6 +512,9 @@ cursor: pointer;
     .timeline{
     	display: none;
     }
+    .music{
+    	height: 120vh;
+    }
 }
 @media screen and (max-width: 320px) {
 	.playto{
