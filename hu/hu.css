@@ -396,6 +396,76 @@ cursor: pointer;
 	color: white;
 	font-size: 90%;
 }
+@media screen and (max-width: 1080px) and (max-height: 1024px){
+	#load-p{
+        margin-top: 2%;
+	}
+	.album{
+		height: 13vh;
+	}
+	#text{
+		margin-top: -1%;
+	}
+	.allmusic{
+		margin-top: 15%;
+	}
+	.music{
+		height: 75vh;
+	}
+	.playto{
+		width: 4%;
+	}
+    .footer{
+    	height: 15vh;
+    }
+    .footer p{
+    	margin-left: 9%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+	.main-menu li{
+		margin-left: 5%;
+	}
+	.albums li{
+		width: 17%;
+        height: 6vh;
+	}
+    .playto{
+    	width: 5%;
+    }
+    .footer p{
+    	margin-left: 13%;
+    }
+
+}
+@media screen and (max-width: 1024px){
+	.albums li{
+		height: 15vh;
+	}
+	.playto{
+		width: 4%;
+	}
+	.footer p{
+		margin-left: 10%;
+	}
+}
+@media screen and (width: 1920px){
+	#big{
+		width: 90%;
+		height: 50%;
+	}
+	.albums li{
+		width: 15%;
+	}
+	.album{
+		margin-top:5%;
+	}
+	.playto{
+		width: 2.5%;
+	}
+}
 @media screen and (max-width: 481px){
 	#preloader{
 		margin-left: -2%;
@@ -456,73 +526,8 @@ cursor: pointer;
 		margin-left: -8%;
 		margin-top: -4%;
 	}
-	
-}
-@media screen and (max-width: 768px){
-	.main-menu li{
-		margin-left: 5%;
-	}
-	.albums li{
-		width: 17%;
-        height: 6vh;
-	}
-    .playto{
-    	width: 5%;
-    }
-    .footer p{
-    	margin-left: 13%;
-    }
-
-}
-@media screen and (max-width: 1024px){
-	.albums li{
-		height: 15vh;
-	}
-	.playto{
-		width: 4%;
-	}
-	.footer p{
-		margin-left: 10%;
-	}
-}
-@media screen and (width: 1920px){
-	#big{
-		width: 90%;
-		height: 50%;
-	}
-	.albums li{
-		width: 15%;
-	}
-	.album{
-		margin-top:5%;
-	}
-	.playto{
-		width: 2.5%;
-	}
-}
-@media screen and (max-width: 1080px) and (max-height: 1024px){
-	#load-p{
-        margin-top: 2%;
-	}
-	.album{
-		height: 13vh;
-	}
-	#text{
-		margin-top: -1%;
-	}
-	.allmusic{
-		margin-top: 15%;
-	}
 	.music{
-		height: 75vh;
+		height: 120vh;
 	}
-	.playto{
-		width: 4%;
-	}
-    .footer{
-    	height: 15vh;
-    }
-    .footer p{
-    	margin-left: 9%;
-    }
+	
 }
