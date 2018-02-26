@@ -389,7 +389,7 @@ text-align:center;
     }
     .slider{
     	margin-top: 30%;
-    	width: 58%;
+    	width: 80%;
     	margin-left: 22%;
     	height: 50%;
     }
@@ -399,7 +399,7 @@ text-align:center;
     	height: 3%;
     }
     .footer p{
-    	margin-left: 6%;
+    	margin-left:8%;
     }
     .slide{
 		border: none;
@@ -589,13 +589,13 @@ text-align:center;
 		border: none;
 	}
 }
-@media screen and (max-width: 1080px) and (max-height: 1024px){
+@media screen and (max-width: 1280px) and (max-height: 1024px){
 	.main-menu{
 		margin-left: 0%;
 	}
 
 	.stati{
-		height: 2.5%;
+		height: 3%;
 		margin-top: -0.5%;
 	}
 	#load-p{
@@ -615,7 +615,7 @@ text-align:center;
 		height: 93vh;
 	}
 	#stat{
-		margin-top: 0%;
+		margin-top: 3%;
 	}
     .slider{
     	margin-top: 40%;
