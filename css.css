@@ -435,6 +435,7 @@ text-align:center;
         }
         .slider{
         	margin-top: 20%;
+        	margin-left: 13%;
         }
         .button{
         	width: 5%;
@@ -444,6 +445,9 @@ text-align:center;
         }
         .slide{
 		border: none;
+	}
+	.slide p{
+		width: 70%;
 	}
 	}
 
@@ -620,10 +624,10 @@ text-align:center;
     .slider{
     	margin-top: 30%;
     	width: 90%;
-    	margin-left: 5%;
+    	margin-left:5%;
     }
     .buttons{
-    	margin-top:-15%;
+    	margin-top:5%;
     }
     .button{
     	width: 8%;

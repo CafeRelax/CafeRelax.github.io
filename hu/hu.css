@@ -409,13 +409,13 @@ cursor: pointer;
 }
 @media screen and (max-width: 1600px) and (max-height: 1200px){
 	#load-p{
-        margin-top: 2%;
+        margin-top: 0%;
 	}
 	.album{
 		height: 10vh;
 	}
 	.albums li{
-		height: 10vh;
+		height: 20vh;
 	}
 	
 	#text{
@@ -425,10 +425,10 @@ cursor: pointer;
 		margin-top: 15%;
 	}
 	.music{
-		height: 85vh;
+		height: 110vh;
 	}
 	.playto{
-		width: 4%;
+		width: 3%;
 	}
     .footer{
     	height: 15vh;
