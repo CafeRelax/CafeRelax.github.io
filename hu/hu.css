@@ -439,6 +439,9 @@ cursor: pointer;
     .main-menu{
     	margin-left: 0%;
     }
+    .main-menu li{
+    	margin-left: 0%;
+    }
 }
 
 
