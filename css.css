@@ -616,7 +616,7 @@ text-align:center;
 		margin-top: 15%;
 	}
 	.content2{
-		height: 93vh;
+		height: 100vh;
 	}
 	#stat{
 		margin-top: 3%;
@@ -627,7 +627,7 @@ text-align:center;
     	margin-left:5%;
     }
     .buttons{
-    	margin-top:5%;
+    	margin-top:10%;
     }
     .button{
     	width: 8%;
