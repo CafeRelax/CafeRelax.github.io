@@ -436,6 +436,9 @@ cursor: pointer;
     .footer p{
     	margin-left: 9%;
     }
+    .main-menu{
+    	margin-left: 0%;
+    }
 }
 
 
